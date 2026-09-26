@@ -47,7 +47,7 @@ resource "aws_instance" "web" {
     DEBIAN_FRONTEND=noninteractive apt install -y nginx
     systemctl start nginx
     systemctl enable nginx
-    echo "<h1>Hello from Terraform!</h1>" > /var/www/html/index.html
+    echo "<h1>Raznul Terraform!</h1>" > /var/www/html/index.html
   EOF
 
 ## Kemaskini EC2 Instance
