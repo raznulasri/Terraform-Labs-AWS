@@ -1,7 +1,7 @@
 
 # Cipta Security Group
 resource "aws_security_group" "web" {
-  name        = "bootcamp-web-sg"
+  name        = "raznul-web-sg"
   description = "Allow HTTP"
   vpc_id      = aws_vpc.main.id
 
@@ -22,7 +22,7 @@ resource "aws_security_group" "web" {
   }
 
   tags = {
-    Name = "bootcamp-web-sg"
+    Name = "raznul-web-sg"
   }
 }
 
@@ -36,7 +36,7 @@ resource "aws_instance" "web" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "bootcamp-web-server"
+    Name = "raznul-web-server"
   }
 
 ## User data untuk web server
