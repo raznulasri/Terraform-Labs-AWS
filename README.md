@@ -24,7 +24,7 @@
 | Port 80 (HTTP)        |   | [User Data Script]               |
 | From 0.0.0.0/0 (All)  |   | - Installs Nginx                 |
 |                       |   | - Starts Nginx                   |
-| [Egress]              |   | - Creates Hello World index.html |
+| [Egress]              |   | - Creates Raznul Terraform! index.html |
 | All Traffic           |   |                                  |
 | To 0.0.0.0/0 (All)    |   +----------------------------------+
 +-----------------------+           |                  |
