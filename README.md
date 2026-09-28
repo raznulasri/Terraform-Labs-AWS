@@ -1,8 +1,7 @@
 # Raznul AWS Web Server Infrastructure (Terraform)
 
 This project provisions an Nginx web server on AWS using Terraform, including AWS Systems Manager (SSM) access.
-
-Run the configuration to link your AWS IAM access keys to your CLI environment:
+Please execute these commands on a local machine with configured AWS CLI access.
 
 ---
 
